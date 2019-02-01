@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:TagsEditText="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/et_zip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <mabbas007.tagsedittext.TagsEditText
+        android:id="@+id/tagsEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        TagsEditText:allowSpaceInTag="true"
+        TagsEditText:tagsCloseImageRight="@drawable/tag_close"
+        TagsEditText:tagsBackground="@drawable/square"
+        TagsEditText:tagsTextColor="#fff"
+        TagsEditText:tagsTextSize="@dimen/defaultTagsTextSize"
+        TagsEditText:tagsCloseImagePadding="@dimen/defaultTagsCloseImagePadding"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"/>
+</LinearLayout>

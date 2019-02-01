@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">roomcodelabs</string>
+    <string name="hint_prod">Product</string>
+    <string name="hint_desc">Description</string>
+    <string name="hint_price">Price</string>
+    <string name="button_save">Save</string>
+    <string name="button_edit">Edit</string>
+    <string name="empty_not_saved">Product Empty! Unable to save.</string>
+    <string
+        name="title_activity_maps">
+        Map
+    </string>
+</resources>
